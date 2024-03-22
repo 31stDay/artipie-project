@@ -3,4 +3,4 @@ repo:
   type: Go
   storage: 
     type: fs
-    path: /var/artipie/data/private
+    path: /var/artipie-project/artipie/data/private

@@ -8,4 +8,4 @@ repo:
       cashe:
         storage:
           type: fs
-          path: /var/artipie/data/public-cashe #here will be artifacts downloaded from public repo
+          path: /var/artipie-project/artipie/data/public-cashe #here will be artifacts downloaded from public repo
