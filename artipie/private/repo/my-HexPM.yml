@@ -1,0 +1,6 @@
+# file name match repo name
+repo:
+  type: HexPM
+  storage: 
+    type: fs
+    path: /var/artipie/data/private

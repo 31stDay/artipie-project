@@ -1,0 +1,11 @@
+repo:
+  type: maven-proxy
+  remotes:
+    -
+      url: http://localhost:8080/my-HexPM
+    -
+      url: https://hex.pm/ #has to be changed
+      cashe:
+        storage:
+          type: fs
+          path: /var/artipie/data/public-cashe #here will be artifacts downloaded from public repo

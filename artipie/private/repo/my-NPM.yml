@@ -1,0 +1,6 @@
+# file name match repo name
+repo:
+  type: NPM
+  storage: 
+    type: fs
+    path: /var/artipie/data/private

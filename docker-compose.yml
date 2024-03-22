@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  artipie:
+    image: artipie/artipie:latest
+    container_name: artipie
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - /opt/artipie/private/repo:/var/artipie/private/repo # mount folder with repository configuration
+      - /opt/artipie/private:/etc/artipie/private # mount folder with Artipie server configuration
